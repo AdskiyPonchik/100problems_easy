@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def pizda():
     try: 
         return 1
@@ -5,3 +6,7 @@ def pizda():
         return 2
     
 print(pizda())
+=======
+some = f"Теперь это выглядит\nНормально"
+print(some)
+>>>>>>> origin/main

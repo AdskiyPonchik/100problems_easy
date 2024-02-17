@@ -5,5 +5,4 @@ int main()
 {
     int* p = NULL;
     std::cout << (nullptr==NULL) <<'\n';
-    return 0;
 }
