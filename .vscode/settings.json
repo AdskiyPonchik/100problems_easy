@@ -68,5 +68,6 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "python.REPL.enableREPLSmartSend": false
 }

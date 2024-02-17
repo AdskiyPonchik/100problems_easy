@@ -1,6 +1,9 @@
-#include "contains_duplicate.h"
+#include <iostream>
+#include "parallel_tasks/2_ranged_array.h"
 
-int main(){
-    std::vector<int>arr{1,1,1,3,3,4,3,2,4,2};
-    std::cout << containsDuplicate(arr) << '\n';
+int main()
+{
+    int* p = NULL;
+    std::cout << (nullptr==NULL) <<'\n';
+    return 0;
 }
