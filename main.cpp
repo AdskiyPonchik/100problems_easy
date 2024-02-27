@@ -1,24 +1,17 @@
 #include <iostream>
 #include <string>
-struct Student
-{
-    std::string name;
-    int age;
-    double gpa;
-};
+#include "OOP/class.h"
+using namespace std;
 
-int main()
+
+
+
+int main(int argc, char* argv)
 {
-    const int studentscount = 5;
-    Student student[studentscount] = {
-        {"Alice", 20, 3.5},
-        {"Bob", 21, 3.2},
-        {"Charlie", 19, 3.8},
-        {"David", 22, 3.6},
-        {"Eve", 20, 3.9}};
-    for (int i = 0; i < studentscount; i++)
-    {
-        std::cout << student[i].name << '\t' << student[i].age << '\t' << student[i].gpa << '\n';
-    }
+    Human firstHuman;
+    firstHuman.age = 32;
+    firstHuman.name = "Ivan";
+    std::cout << firstHuman.age << '\n';
+    std::cout << firstHuman.name << '\n';
     return 0;
 }
