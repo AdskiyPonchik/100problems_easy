@@ -1,8 +1,22 @@
 #include <iostream>
 #include <string>
-class Human
+
+class Point
 {
 public:
-    int age;
-    string name;
+    int x;
+    void Print()
+    {
+        std::cout << x << '\t';
+        PrintZY();
+    }
+
+private:
+    int y;
+    int z;
+
+    void PrintZY()
+    {
+        std::cout << y << '\t' << z <<'\n';
+    }
 };
