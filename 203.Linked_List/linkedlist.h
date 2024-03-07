@@ -21,8 +21,6 @@ struct ListNode {
 
 class Solution {
 public:
-    Solution();
-
     ListNode *removeElements(ListNode *head, int val) {
         ListNode *dummy = new ListNode(0, head);
         ListNode *cur = head;
