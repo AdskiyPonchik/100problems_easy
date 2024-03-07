@@ -1,0 +1,5 @@
+# ninja log v5
+1	295	1709842915012441603	CMakeFiles/100problems.dir/main.cpp.o	63fe874befe28e95
+1	263	1709842966159108201	CMakeFiles/100problems.dir/main.cpp.o	63fe874befe28e95
+1	273	1709842966169108202	CMakeFiles/100problems.dir/parallel_tasks/linked_list.cpp.o	4c1ff89663c7bfdc
+273	350	1709842966245774868	100problems	9c5bc9aa28914ab3
