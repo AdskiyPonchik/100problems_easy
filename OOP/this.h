@@ -1,44 +1,37 @@
 #include <iostream>
 
-class Point
-{
+class Point {
 private:
     int x;
     int y;
 
 public:
 
-    Point()
-    {
+    Point() {
         x = 0;
         y = 0;
         std::cout << this << " constructor" << '\n';
     }
 
-    Point(int valueX, int valueY)
-    {
+    Point(int valueX, int valueY) {
         x = valueX;
         y = valueY;
         std::cout << this << " constructor" << '\n';
     }
 
-    int GetX()
-    {
+    int GetX() {
         return x;
     }
 
-    void SetX(int valueX)
-    {
+    void SetX(int valueX) {
         x = valueX;
     }
 
-    void SetY(int valueY)
-    {
+    void SetY(int valueY) {
         y = valueY;
     }
 
-    void Print()
-    {
+    void Print() {
         std::cout << x << '\t' << y << '\n';
     }
 };

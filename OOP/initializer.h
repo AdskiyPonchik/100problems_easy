@@ -1,35 +1,37 @@
 #include <iostream>
 
-class Point
-{
+class Point {
 private:
     int x;
     int y;
 
 public:
-    Point(int valueX, int valueY)
-    {
+    Point(int valueX, int valueY) {
         x = valueX;
         y = valueY;
     }
 
-    int GetX()
-    {
+    bool operator==(const Point &other) {
+        return this->x == other.x && this->y == other.y;
+    }
+
+    bool operator!=(const Point &other) {
+        return this->x != other.x && this->y != other.y;
+    }
+
+    int GetX() {
         return x;
     }
 
-    void SetX(int valueX)
-    {
+    void SetX(int valueX) {
         x = valueX;
     }
 
-    void SetY(int valueY)
-    {
+    void SetY(int valueY) {
         y = valueY;
     }
 
-    void Print()
-    {
+    void Print() {
         std::cout << x << '\t' << y << '\n';
     }
 };

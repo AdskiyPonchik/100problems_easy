@@ -22,6 +22,18 @@ public:
         }
     }
 
+    MyClass &operator=(const MyClass &other) {
+        std::cout << "Called operator = \n";
+        this->Size = other.Size;
+        delete[] this->data;
+        this->data = new int[other.Size];
+        for (int i = 0; i < other.Size; i++) {
+            this->data[i] = other.data[i];
+        }
+        return *this;
+    }
+
+
     ~MyClass() {
         std::cout << "Destructor called " << this << '\n';
         delete[] data;
