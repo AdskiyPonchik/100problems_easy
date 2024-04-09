@@ -14,6 +14,5 @@ private:
     {
     public:
         Node *pNext;
-        T 
-    }
-}
+    };
+};
